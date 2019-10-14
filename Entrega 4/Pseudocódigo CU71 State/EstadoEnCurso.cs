@@ -42,7 +42,7 @@ namespace CU71
         public Boolean finalizar(DateTime fecha, Intervencion inter)
         {
             EstadoIntervencion nuevo = new EstadoFinalizada(fecha);
-            inter.añadirEstado(nuevo);
+            inter.anadirEstado(nuevo);
             return true; //ACA COMO HAGO EL RETURN?
         }
 	}
