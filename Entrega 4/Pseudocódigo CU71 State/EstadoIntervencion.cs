@@ -49,43 +49,43 @@ namespace CU71
         public Boolean esAbortada()
         {
 
-            throw new NotImplementedException();
+            return false;
         }
 
         public Boolean esCancelada()
         {
 
-            throw new NotImplementedException();
+            return false;
         }
 
         public Boolean esConvocada()
         {
 
-            throw new NotImplementedException();
+            return false;
         }
 
         public Boolean esEnCurso()
         {
 
-            throw new NotImplementedException();
+            return false;
         }
 
         public Boolean esFinalizada()
         {
 
-            throw new NotImplementedException();
+            return false;
         }
 
         public Boolean esFirmada()
         {
 
-            throw new NotImplementedException();
+            return false;
         }
 
         public Boolean esPendiente()
         {
 
-            throw new NotImplementedException();
+            return false;
         }
 
         /// 

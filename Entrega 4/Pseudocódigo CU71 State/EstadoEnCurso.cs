@@ -41,9 +41,15 @@ namespace CU71
         /// <param name="this"></param>
         public Boolean finalizar(DateTime fecha, Intervencion inter)
         {
-            EstadoIntervencion nuevo = new EstadoFinalizada(fecha);
-            inter.anadirEstado(nuevo);
-            return true; //ACA COMO HAGO EL RETURN?
+            try{
+                EstadoIntervencion nuevo = new EstadoFinalizada(fecha);
+                inter.anadirEstado(nuevo);
+                return true;
+            }
+            catch(Exception ex){
+                //rollback()
+                return false;
+            }
         }
 	}
 
