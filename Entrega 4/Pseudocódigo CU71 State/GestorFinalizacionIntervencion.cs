@@ -17,16 +17,17 @@ namespace CU71
 
         public void buscarIntervencionesEnCurso()
         {
-
+            List<Intervencion> intervencionesEnCurso = new List<Intervencion>();
             foreach (Intervencion inter in intervenciones)
             {
-                // Duda de como manejar esto, porque tengo que buscar las intervenciones para
-                // mandarle datos a la interfaz visual para que el usuario seleccione una
                 if (inter.esEnCurso())
                 {
-
+                    intervencionesEnCurso.Add(inter)
                 }
             }
+            // Se envia a la ventana las intervenciones en curso y 
+            // continúa la logica del caso de Uso.No se escribe código por simplicidad
+
         }
 
         public DateTime obtenerFechaHoraActual()
