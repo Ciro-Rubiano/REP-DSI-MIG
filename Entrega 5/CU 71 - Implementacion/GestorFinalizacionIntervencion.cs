@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.IO;
 
-
+//TEST SYNC
 namespace CU71
 {
     public class GestorFinalizacionIntervencion
@@ -33,7 +33,8 @@ namespace CU71
             //metodo utilizado por la GUI para seleccionar la itervencion a finalizar
             this.intervencionSeleccionada = intervencionesEnCurso[index];
             List<Dotacion> dotacionesDeIntervencion = this.intervencionSeleccionada.GetDotaciones();
-        
+            //mostramos dotaciones
+            
         }
         
         private Bombero obtenerBomberoSesionActual(){
