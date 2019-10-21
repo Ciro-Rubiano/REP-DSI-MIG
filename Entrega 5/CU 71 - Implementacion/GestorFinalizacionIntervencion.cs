@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.IO;
 
-//TEST SYNC
+
 namespace CU71
 {
     public class GestorFinalizacionIntervencion
